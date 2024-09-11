@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <!--
+    Anything that is not visible is goes inside the head
+  -->
+  <head>
+    <title>HTML CSS Review</title>
+    <style>
+      /*
+      button is a selector,
+      it tell which element should be modified
+      background-color is a css property
+      red is a css value
+      */
+      .red-button {
+        background-color: red;
+        color: white;
+        border:none;
+      }
+      .yellow-button {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button title = "Good job!" class="red-button" onclick="alert('good job!')">
+      hello
+    </button>
+    <p>
+      paragraph of <button class = "yellow-button">hello</button> text
+    </p>
+    <script>
+      //Always put script at the end
+      //alert('hello')
+      console.log(2+2);
+      console.log('some' + 'text');
+    </script>
+  </body>
+</html>
+
+
+
+
